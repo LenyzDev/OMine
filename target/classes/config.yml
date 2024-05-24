@@ -1,0 +1,46 @@
+MySQL:
+  ip: "localhost:3306"
+  database: "database"
+  username: "user"
+  password: "password"
+
+mine-world: "world"
+mine-location: "world,0,100,0,0,0"
+use-economy: true
+economy: "crystals"
+
+experience-bonus:
+  vip1: 10 # 10% bonus - Permission: omine.experience.vip1
+
+money-bonus:
+  vip1: 10 # 10% bonus - Permission: omine.money.vip1
+
+economy-bonus:
+  vip1: 10 # 10% bonus - Permission: omine.economy.vip1
+
+skins:
+  skin1:
+    name: "&dSkin 1"
+    multiplier: 1.50
+    custom-model-data: 100
+
+creations:
+  creation1:
+    items:
+      item1: 10
+    permission: "omine.creation1"
+    commands:
+      - "give {player} diamond 1"
+
+blocks:
+  LAPIS_ORE:
+    name: "Lapis Ore"
+    permission: "omine.lapis"
+    error-message: "&fYou need Prestige &c10&f to mine this block."
+    delay: 10 # in seconds
+    experience: 10
+    money: 10
+    economy: 10
+    item1: true
+    item2: true
+    item3: true

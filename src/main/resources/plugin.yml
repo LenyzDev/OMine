@@ -1,0 +1,13 @@
+name: OMine
+version: '${project.version}'
+main: omine.OMine
+api-version: '1.20'
+depend:
+  - Multiverse-Core
+commands:
+  mine:
+    aliases: [ mines ]
+  pickaxe:
+    aliases: [ pick ]
+  minecreate:
+    aliases: [ minecriar ]

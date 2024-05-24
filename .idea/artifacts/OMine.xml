@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="OMine">
+    <output-path>$USER_HOME$/Downloads</output-path>
+    <root id="archive" name="OMine.jar">
+      <element id="module-output" name="OMine" />
+    </root>
+  </artifact>
+</component>
